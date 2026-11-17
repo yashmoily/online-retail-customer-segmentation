@@ -138,6 +138,18 @@ The Power BI dashboard consists of two interactive pages designed to explore cus
 
 **Dashboard Focus:** Customer distribution, purchasing behaviour, revenue contribution, segment performance, and customer-level analysis.
 
+### Dashboard Screenshots
+
+**Page 1 – Customer Segmentation Overview**
+
+![Customer Segmentation Overview](03_PowerBI/Page_1_Overview.png)
+
+**Page 2 – Customer Segment Analysis**
+
+![Customer Segment Analysis](03_PowerBI/Page_2_Analysis.png)
+
+
+
 ## Customer Segmentation Results
 
 The final analysis identified five customer segments across **4,334 customers**.
