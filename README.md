@@ -110,27 +110,33 @@ The Adjusted Rand Index was calculated across six random initialisation seeds to
 
 ### 3. Power BI – Dashboard and Business Analysis
 
-Power BI was used to develop an interactive dashboard based on the final customer segmentation output.
-
-The dashboard contains two pages:
+The Power BI dashboard consists of two interactive pages designed to explore customer segments, purchasing behaviour, and revenue contribution.
 
 **Page 1 – Customer Segmentation Overview**
 
 - Total customers
-- Total net monetary value
 - Average recency
 - Average purchase frequency
+- Total net revenue
+- Median monetary value
 - Customer distribution by segment
-- Net monetary contribution by segment
-- Customer segment performance table
+- Net revenue contribution by segment
+- Customer segment performance table, including customer count, average frequency, average monetary value, average recency, total net revenue, revenue contribution, customer share, and recommended actions
+- Segment-based filtering
 
 **Page 2 – Customer Segment Analysis**
 
 - Segment-based filtering
-- Average recency comparison
-- Average purchase frequency comparison
+- Total customers and average recency
+- Average purchase frequency
 - Average monetary value
-- Detailed customer segment performance
+- Median monetary value
+- Average recency comparison across customer segments
+- Average purchase frequency comparison across customer segments
+- Average monetary value comparison across customer segments
+- Customer-level scatter plot showing the relationship between recency and monetary value, segmented by customer group
+
+**Dashboard Focus:** Customer distribution, purchasing behaviour, revenue contribution, segment performance, and customer-level analysis.
 
 ## Customer Segmentation Results
 
