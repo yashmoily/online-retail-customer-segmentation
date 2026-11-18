@@ -106,6 +106,30 @@ Key activities:
 
 The Adjusted Rand Index was calculated across six random initialisation seeds to assess clustering stability.
 
+### Cluster Selection Rationale
+
+Several cluster configurations (K=2 to K=8) were evaluated using the Silhouette Score, Davies-Bouldin Index, and Calinski-Harabasz Index.
+
+Although K=2 achieved the highest Silhouette Score (0.430), K=5 was selected as a practical balance between clustering evaluation and business interpretability.
+
+The five-cluster solution identified distinct customer groups, including a small VIP segment representing 0.95% of customers but contributing 29.67% of total net monetary value.
+
+The selection was therefore based on the usefulness and interpretability of the resulting customer segments rather than on a single evaluation metric. The K=5 solution also demonstrated high consistency across six random initialisation seeds, with an average Adjusted Rand Index of 0.9975.
+
+### Yeo-Johnson Transformation — Cluster Evaluation
+
+| Number of Clusters (K) | Silhouette Score | Davies-Bouldin Index | Calinski-Harabasz Index |
+|---:|---:|---:|---:|
+| 2 | 0.430 | 0.906 | 3450.025 |
+| 3 | 0.375 | 1.001 | 2748.505 |
+| 4 | 0.355 | 0.930 | 2563.569 |
+| 5 | 0.363 | 0.874 | 2626.484 |
+| 6 | 0.366 | 0.791 | 2717.672 |
+| 7 | 0.375 | 0.774 | 2899.501 |
+| 8 | 0.384 | 0.797 | 2974.026 |
+
+The evaluation metrics provide different perspectives on cluster quality. Higher Silhouette and Calinski-Harabasz scores and lower Davies-Bouldin scores generally indicate better-defined clusters. No single configuration performed best across all metrics, so K=5 was retained based on the interpretability and business usefulness of its resulting segments.
+
 **Output:** `RFM_Segmented.csv`
 
 ### 3. Power BI – Dashboard and Business Analysis
