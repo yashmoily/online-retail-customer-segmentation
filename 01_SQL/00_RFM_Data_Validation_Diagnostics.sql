@@ -59,8 +59,6 @@ FROM RFM_Base;
 
 
 
-
-
 -- 3) Unidentified Customer Invoices
 SELECT COUNT(DISTINCT InvoiceNo) AS UnidentifiedCustomerInvoices
 FROM dbo.vw_OnlineRetail_ProductSales
