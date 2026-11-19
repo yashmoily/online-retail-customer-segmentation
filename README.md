@@ -174,7 +174,7 @@ The Power BI dashboard consists of two interactive pages designed to explore cus
 
 #### Page 2 – Customer Segment Analysis
 
-![Customer Segment Analysis](03_PowerBI/Dashboard_Screenshots/Page_2_Analysis.png)
+![Customer Segment Analysis](03_PowerBI/Page_2_Analysis.png)
 
 ## Customer Segmentation Results
 
@@ -239,9 +239,9 @@ online-retail-customer-segmentation/
 │
 ├── 03_PowerBI/
 │   ├── Online_Retail_Customer_Segmentation.pbix
-│   └── Dashboard_Screenshots/
-│       ├── Page_1_Overview.png
-│       └── Page_2_Analysis.png
+│   ├── Page_1_Overview.png
+│   └── Page_2_Analysis.png    
+│       
 │
 ├── 04_Output/
 │   └── RFM_Segmented.csv
